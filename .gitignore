@@ -1,0 +1,5 @@
+# Ignore the executable
+sudoku
+
+# Ignore ninja files
+.ninja*
