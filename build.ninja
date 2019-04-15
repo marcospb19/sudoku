@@ -1,0 +1,7 @@
+cflags = -Wall -Wextra -std=c++11 -O3
+cc = tcc
+
+rule compile
+  command = $cc $cflags $in -o $out
+
+build sudoku: compile sudoku.c
