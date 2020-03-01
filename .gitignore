@@ -1,5 +1,6 @@
 # Ignore the executable
+src/sudoku
 sudoku
 
-# Ignore ninja files
-.ninja*
+# Object files
+*.o
