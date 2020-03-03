@@ -12,7 +12,7 @@ CFLAGS = -O2 -Wall -Wextra -std=c11
 LDFLAGS = -lm
 
 # Object files to be built
-OBJECTS = sudoku.o game.o
+OBJECTS = sudoku.o game.o solve.o
 
 
 ### Main targets
